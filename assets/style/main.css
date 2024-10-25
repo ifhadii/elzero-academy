@@ -1,0 +1,182 @@
+:root {                                                               
+      --color-main: #0075ff;                    
+}                                                                     
+                                                                      
+/* global rules */                                                    
+* {                                                                   
+    box-sizing: border-box;                                           
+    -webkit-box-sizing: border-box;                                   
+    -moz-box-sizing: border-box;                                      
+    padding: 0;                                                       
+    margin: 0;                                                        
+}                                                                     
+
+html {                                                                
+    font-family: 'Poppins', sans-serif, serif;
+    font-family: 'cairo';                        
+}                                                                     
+
+.container {                                                          
+    margin: 0 auto;                                                   
+    padding: 15px;                                                    
+}                                                                     
+
+body {        
+    font-size: 18px;
+    overflow-x: hidden;
+}                                                                     
+                                                                      
+/* media queries for container */                                     
+@media (min-width: 786px) {                                           
+    .container {                                                      
+        width: 750px;                                                 
+    }                                                                 
+}                                                                     
+                                                                      
+@media (min-width: 992px) {                                           
+    .container {                                                      
+        width: 970px;                                                 
+    }                                                                 
+}                                                                     
+                                                                      
+@media (min-width: 1200px) {                                          
+    .container {                                                      
+        width: 1170px;                                                
+    }                                                                 
+}          
+
+/* start header */
+header {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    padding-top: 0;
+    font-size: 20px;
+    position: fixed;
+}
+.header .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 250px;
+}
+.header .container .image {
+    width: 190px;
+}
+.header .container .image img {
+    width: 100%;
+}
+.header .container .links-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+}
+.header .container .dropdown {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.header .container .dropdown i {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.header .container .dropdown .options {
+    display: none;
+}
+
+
+/* media query for  */
+/* start home */
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-main);
+}
+.home .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+.home .container .text {
+    text-align: center;
+    color: white;
+}
+.home .container .text .description {
+    font-size: 23px;
+}
+.home .container .input-insider {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+}
+.home .container .input-insider .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    width: 100%;
+}
+.home .container .input-insider button {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    /* border-radius: 10px; */
+    border: 2px solid white;
+    background-color: var(--color-main);
+}
+.home .container .input-insider input:nth-child(2) {
+    width: 100%;
+    height: 34px;
+    outline: none;
+    direction: rtl;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+/* start special heading */
+.special_heading {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.special_heading .title {
+    font-size: 50px;
+    font-weight: 400;
+}
+.special_heading .description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.special_heading .description p {
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.special_heading .description hr {
+    width: 100%;
+    height: 4px;
+    border-right: none;
+    border-left: none;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #989696;
+    border-top: 1px solid #989696;
+}
