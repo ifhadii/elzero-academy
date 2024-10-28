@@ -8,6 +8,4 @@ window.onscroll = function() {
     }
 };
 
-function main() {
-   // will see 
-}
+
