@@ -303,6 +303,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  text-wrap: nowrap;
 }
 
 .special_heading .description p {
