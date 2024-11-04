@@ -1,607 +1,695 @@
 <DOCTYPE html>
    <html lang="en">
-      <head>
-         <meta charset="UTF-8" />
-         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-         <!-- displays site properly based on user's device -->
-         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
-         <!-- main css file -->
-         <link rel="stylesheet" href="assets/style/main.css" />
-         <!-- normalize css file -->
-         <link rel="stylesheet" href="assets/style/normlize.css" />
-         <!-- fontawsome icon file -->
-         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-         <!-- google font -->
-         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-         <title>Elzero Academy</title>
-      </head>
-      <body>
-         <!-- start header -->
-         <header>
-            <div class="header">
-            <div class="container">
-               <!-- logo -->
-               <div class="image">
-                  <img src="assets/images/logo.png" alt="">
-               </div>
-               <!-- header links -->
-               <div class="menu">
-                  <!-- header icon -->
-                  <span class="icon" onclick="toggleDisplayMenu()">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  </span>
-                  <div class="links-header">
-                     <ul>
-                        <li onclick="">
-                           <a href="">
-                           <i class="fa-solid fa-chevron-down"></i>تعلم الان</a>
-                           <ul class="inside-links">
-                              <li><a href="">تعلم الان</a></li>
-                              <li><a href="">مسارات التعلم</a></li>
-                              <li><a href="">خطط الدراسة</a></li>
-                              <li><a href="">من القناة</a></li>
-                              <li><a href="">منوع</a></li>
-                              <li><a href="">خدمات</a></li>
-                           </ul>
-                        </li>
-                        <li onclick="">
-                           <a href=""><i class="fa-solid fa-chevron-down"></i>مسارات التعلم</a>
-                           <ul class="inside-links">
-                              <li><a href="">تعلم الان</a></li>
-                              <li><a href="">مسارات التعلم</a></li>
-                              <li><a href="">خطط الدراسة</a></li>
-                              <li><a href="">من القناة</a></li>
-                              <li><a href="">منوع</a></li>
-                              <li><a href="">خدمات</a></li>
-                           </ul>
-                        </li>
-                        <li onclick="">
-                           <a href=""><i class="fa-solid fa-chevron-down"></i>خطط الدراسة</a>
-                           <ul class="inside-links">
-                              <li><a href="">تعلم الان</a></li>
-                              <li><a href="">مسارات التعلم</a></li>
-                              <li><a href="">خطط الدراسة</a></li>
-                              <li><a href="">من القناة</a></li>
-                              <li><a href="">منوع</a></li>
-                              <li><a href="">خدمات</a></li>
-                           </ul>
-                        </li>
-                        <li onclick="">
-                           <a href=""><i class="fa-solid fa-chevron-down"></i>من القناة</a>
-                           <ul class="inside-links">
-                              <li><a href="">تعلم الان</a></li>
-                              <li><a href="">مسارات التعلم</a></li>
-                              <li><a href="">خطط الدراسة</a></li>
-                              <li><a href="">من القناة</a></li>
-                              <li><a href="">منوع</a></li>
-                              <li><a href="">خدمات</a></li>
-                           </ul>
-                        </li>
-                        <li onclick="">
-                           <a href=""><i class="fa-solid fa-chevron-down"></i>منوع</a>
-                           <ul class="inside-links">
-                              <li><a href="">تعلم الان</a></li>
-                              <li><a href="">مسارات التعلم</a></li>
-                              <li><a href="">خطط الدراسة</a></li>
-                              <li><a href="">من القناة</a></li>
-                              <li><a href="">منوع</a></li>
-                              <li><a href="">خدمات</a></li>
-                           </ul>
-                        </li>
-                        <li onclick="">
-                           <a href=""><i class="fa-solid fa-chevron-down"></i>خدمات</a>
-                           <ul class="inside-links">
-                              <li><a href="">تعلم الان</a></li>
-                              <li><a href="">مسارات التعلم</a></li>
-                              <li><a href="">خطط الدراسة</a></li>
-                              <li><a href="">من القناة</a></li>
-                              <li><a href="">منوع</a></li>
-                              <li><a href="">خدمات</a></li>
-                           </ul>
-                        </li>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+   <!-- main css file -->
+   <link rel="stylesheet" href="assets/style/main.css" />
+   <!-- normalize css file -->
+   <link rel="stylesheet" href="assets/style/normlize.css" />
+   <!-- fontawsome icon file -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+   <!-- google font -->
+   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <title>Elzero Academy</title>
+</head>
+<body>
+   <!-- start header -->
+   <header>
+      <div class="header">
+      <div class="container">
+         <!-- logo -->
+         <div class="image">
+            <img src="assets/images/logo.png" alt="">
+         </div>
+         <!-- header links -->
+         <div class="menu">
+            <!-- header icon -->
+            <span class="icon" onclick="toggleDisplayMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            <div class="links-header">
+               <ul>
+                  <li onclick="">
+                     <a href="">
+                        <i class="fa-solid fa-chevron-down"></i>تعلم الان</a>
+                        <ul class="inside-links">
+                           <li><a href="">تعلم الان</a></li>
+                           <li><a href="">مسارات التعلم</a></li>
+                           <li><a href="">خطط الدراسة</a></li>
+                           <li><a href="">من القناة</a></li>
+                           <li><a href="">منوع</a></li>
+                           <li><a href="">خدمات</a></li>
+                        </ul>
+                     </li>
+                     <li onclick="">
+                        <a href=""><i class="fa-solid fa-chevron-down"></i>مسارات التعلم</a>
+                        <ul class="inside-links">
+                           <li><a href="">تعلم الان</a></li>
+                           <li><a href="">مسارات التعلم</a></li>
+                           <li><a href="">خطط الدراسة</a></li>
+                           <li><a href="">من القناة</a></li>
+                           <li><a href="">منوع</a></li>
+                           <li><a href="">خدمات</a></li>
+                        </ul>
+                     </li>
+                     <li onclick="">
+                        <a href=""><i class="fa-solid fa-chevron-down"></i>خطط الدراسة</a>
+                        <ul class="inside-links">
+                           <li><a href="">تعلم الان</a></li>
+                        <li><a href="">مسارات التعلم</a></li>
+                        <li><a href="">خطط الدراسة</a></li>
+                        <li><a href="">من القناة</a></li>
+                        <li><a href="">منوع</a></li>
+                        <li><a href="">خدمات</a></li>
                      </ul>
-                  </div>
-               </div>
-            </div>
-         </header>
-         <!-- end header -->
-         <!-- start landing home -->
-         <div class="home">
-            <div class="container">
-               <div class="text">
-                  <h1 class="title">أكاديمية الزيرو</h1>
-                  <p class="description">.هي منصة تعليمية تقوم على تقديم العديد من مسارات تطوير الويب وتعلم البرمجة بصفة عامة بشرح تفصيلي تفاعلي باللغة العربية، وخطط دراسة مع اختبارات وتحديات برمجية لضمان فهم الكود والتطبيق عليه</p>
-               </div>
-               <div class="input-insider">
-                  <div class="search-bar">
-                     <button>البحث</button>
-                     <input type="text" placeholder="  البحث في الاكاديمية">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end landing home -->
-         <!-- start studying planing -->
-         <div class="studying_planing">
-            <div class="container">
-               <!-- special heading -->
-               <div class="special_heading">
-                  <h1 class="title">خطط الدراسة</h1>
-                  <div class="description">
-                     <hr>
-                     <p>
-                        خطط دراسة اللغات المتاحة
-                     </p>
-                     <hr>
-                  </div>
-               </div>
-               <div class="plan-links">
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/html.png" alt="">
-                     </div>
-                     <h4 class="title">HTML</h4>
-                  </a>
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/css.png" alt="">
-                     </div>
-                     <h4 class="title">Css</h4>
-                  </a>
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/javascript.png" alt="">
-                     </div>
-                     <h4 class="title">JavaScript</h4>
-                  </a>
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/sass.png" alt="">
-                     </div>
-                     <h4 class="title">Sass</h4>
-                  </a>
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/typescript.png" alt="">
-                     </div>
-                     <h4 class="title">TypeScript</h4>
-                  </a>
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/cpp.png" alt="">
-                     </div>
-                     <h4 class="title">Cpp</h4>
-                  </a>
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/php.png" alt="">
-                     </div>
-                     <h4 class="title">Php</h4>
-                  </a>
-                  <a href="" class="html">
-                     <div class="image">
-                        <img src="assets/images/python.png" alt="">
-                     </div>
-                     <h4 class="title">Python</h4>
-                  </a>
-               </div>
+                  </li>
+                  <li onclick="">
+                     <a href=""><i class="fa-solid fa-chevron-down"></i>من القناة</a>
+                     <ul class="inside-links">
+                        <li><a href="">تعلم الان</a></li>
+                        <li><a href="">مسارات التعلم</a></li>
+                        <li><a href="">خطط الدراسة</a></li>
+                        <li><a href="">من القناة</a></li>
+                        <li><a href="">منوع</a></li>
+                        <li><a href="">خدمات</a></li>
+                     </ul>
+                  </li>
+                  <li onclick="">
+                     <a href=""><i class="fa-solid fa-chevron-down"></i>منوع</a>
+                     <ul class="inside-links">
+                        <li><a href="">تعلم الان</a></li>
+                        <li><a href="">مسارات التعلم</a></li>
+                        <li><a href="">خطط الدراسة</a></li>
+                        <li><a href="">من القناة</a></li>
+                        <li><a href="">منوع</a></li>
+                        <li><a href="">خدمات</a></li>
+                     </ul>
+                  </li>
+                  <li onclick="">
+                     <a href=""><i class="fa-solid fa-chevron-down"></i>خدمات</a>
+                     <ul class="inside-links">
+                        <li><a href="">تعلم الان</a></li>
+                        <li><a href="">مسارات التعلم</a></li>
+                        <li><a href="">خطط الدراسة</a></li>
+                        <li><a href="">من القناة</a></li>
+                        <li><a href="">منوع</a></li>
+                        <li><a href="">خدمات</a></li>
+                     </ul>
+                  </li>
+               </ul>
             </div>
          </div>
-         <!-- end studying planing -->
-         <!-- start learning path's -->
-         <div class="learning_path">
-            <div class="container">
-               <!-- special heading -->
-               <div class="special_heading">
-                  <h1 class="title">المسارات التعليمية</h1>
-                  <div class="description">
-                     <hr>
-                     <p>
-                        المسارات التعليمية المتكاملة           
-                     </p>
-                     <hr>
-                  </div>
-               </div>
-               <!-- cards -->
-               <div class="cards">
-                  <a href="" class="card">
-                     <div class="image">
-                        <img src="/assets/images/_fundamentals.png" alt="">
-                     </div>
-                     <p class="info">مسار أساسيات البرمجة</p>
-                  </a>
-                  <!-- cards -->
-                  <a href="" class="card">
-                     <div class="image">
-                        <img src="/assets/images/_frontend.png" alt="">
-                     </div>
-                     <p class="info">Front-End Developer مسار</p>
-                  </a>
-                  <!-- cards -->
-                  <a href="" class="card">
-                     <div class="image">
-                        <img src="/assets/images/_backend.png" alt="">
-                     </div>
-                     <p class="info">PHP Back-End Developer مسار ال </p>
-                  </a>
-               </div>
+      </div>
+   </header>
+   <!-- end header -->
+   <!-- start landing home -->
+<main>
+   <div class="home">
+      <div class="container">
+         <div class="text">
+            <h1 class="title">أكاديمية الزيرو</h1>
+            <p class="description">.هي منصة تعليمية تقوم على تقديم العديد من مسارات تطوير الويب وتعلم البرمجة بصفة عامة بشرح تفصيلي تفاعلي باللغة العربية، وخطط دراسة مع اختبارات وتحديات برمجية لضمان فهم الكود والتطبيق عليه</p>
+         </div>
+         <div class="input-insider">
+            <div class="search-bar">
+               <button>البحث</button>
+               <input type="text" placeholder="  البحث في الاكاديمية">
             </div>
          </div>
-         <!-- end learning path's -->
-         <!-- start last apps -->
-         <div class="last_apps">
-         <div class="container">
-            <!-- special heading -->
-            <div class="special_heading">
-               <h1 class="title">
-                  آخر التطبيقات 
-               </h1>
-               <div class="description">
-                  <hr>
-                  <p>
-                     Front-End تطبيقات على مجال ال 
-                  </p>
-                  <hr>
-               </div>
+      </div>
+   </div>
+   <!-- end landing home -->
+   <!-- start studying planing -->
+   <div class="studying_planing">
+      <div class="container">
+         <!-- special heading -->
+         <div class="special_heading">
+            <h1 class="title">خطط الدراسة</h1>
+            <div class="description">
+               <hr>
+               <p>
+                  خطط دراسة اللغات المتاحة
+               </p>
+               <hr>
             </div>
+         </div>
+         <div class="plan-links">
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/html.png" alt="">
+               </div>
+               <h4 class="title">HTML</h4>
+            </a>
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/css.png" alt="">
+               </div>
+               <h4 class="title">Css</h4>
+            </a>
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/javascript.png" alt="">
+               </div>
+               <h4 class="title">JavaScript</h4>
+            </a>
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/sass.png" alt="">
+               </div>
+               <h4 class="title">Sass</h4>
+            </a>
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/typescript.png" alt="">
+               </div>
+               <h4 class="title">TypeScript</h4>
+            </a>
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/cpp.png" alt="">
+               </div>
+               <h4 class="title">Cpp</h4>
+            </a>
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/php.png" alt="">
+               </div>
+               <h4 class="title">Php</h4>
+            </a>
+            <a href="" class="html">
+               <div class="image">
+                  <img src="assets/images/python.png" alt="">
+               </div>
+               <h4 class="title">Python</h4>
+            </a>
+         </div>
+      </div>
+   </div>
+   <!-- end studying planing -->
+   <!-- start learning path's -->
+   <div class="learning_path">
+      <div class="container">
+         <!-- special heading -->
+         <div class="special_heading">
+            <h1 class="title">المسارات التعليمية</h1>
+            <div class="description">
+               <hr>
+               <p>
+                  المسارات التعليمية المتكاملة           
+               </p>
+               <hr>
+            </div>
+         </div>
+         <!-- cards -->
+         <div class="cards">
+            <a href="" class="card">
+               <div class="image">
+                  <img src="/assets/images/_fundamentals.png" alt="">
+               </div>
+               <p class="info">مسار أساسيات البرمجة</p>
+            </a>
             <!-- cards -->
-            <div class="cards">
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault.jpg" alt="">
-                  </div>
-                  <p>Guess The Word Game</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (1).jpg" alt="">
-                  </div>
-                  <p>Create Page Scroll Progress</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (2).jpg" alt="">
-                  </div>
-                  <p>Hangman Game</p>
-               </a>
-            </div>
-         </div>
-         <!-- end last apps -->
-         <!-- start last videos - advices -->
-         <div class="last_videos">
-         <div class="container">
-            <!-- special heading -->
-            <div class="special_heading">
-               <h1 class="title">
-                  آخر الفيديوهات
-               </h1>
-               <div class="description">
-                  <hr>
-                  <p>
-                     آخر فيديوهات النقاش والنصائح
-                  </p>
-                  <hr>
+            <a href="" class="card">
+               <div class="image">
+                  <img src="/assets/images/_frontend.png" alt="">
                </div>
-            </div>
+               <p class="info">Front-End Developer مسار</p>
+            </a>
             <!-- cards -->
-            <div class="cards">
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (3).jpg" alt="">
-                  </div>
-                  <p>اتعلمت برمجة ومش لاقي وظيفة</p>
+            <a href="" class="card">
+               <div class="image">
+                  <img src="/assets/images/_backend.png" alt="">
+               </div>
+               <p class="info">PHP Back-End Developer مسار ال </p>
+            </a>
+         </div>
+      </div>
+   </div>
+   <!-- end learning path's -->
+   <!-- start last apps -->
+   <div class="last_apps">
+   <div class="container">
+      <!-- special heading -->
+      <div class="special_heading">
+         <h1 class="title">
+            آخر التطبيقات 
+         </h1>
+         <div class="description">
+            <hr>
+            <p>
+               Front-End تطبيقات على مجال ال 
+            </p>
+            <hr>
+         </div>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault.jpg" alt="">
+            </div>
+            <p>Guess The Word Game</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (1).jpg" alt="">
+            </div>
+            <p>Create Page Scroll Progress</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (2).jpg" alt="">
+            </div>
+            <p>Hangman Game</p>
+         </a>
+      </div>
+   </div>
+   <!-- end last apps -->
+   <!-- start last videos - advices -->
+   <div class="last_videos">
+   <div class="container">
+      <!-- special heading -->
+      <div class="special_heading">
+         <h1 class="title">
+            آخر الفيديوهات
+         </h1>
+         <div class="description">
+            <hr>
+            <p>
+               آخر فيديوهات النقاش والنصائح
+            </p>
+            <hr>
+         </div>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (3).jpg" alt="">
+            </div>
+            <p>اتعلمت برمجة ومش لاقي وظيفة</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (4).jpg" alt="">
+            </div>
+            <p>بخصوص مسار التأسيس البرمجي</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (5).jpg" alt="">
+            </div>
+            <p>أهم النصائح لتحسين أداء موقعك عند إستدعاء المكتبات</p>
+         </a>
+      </div>
+   </div>
+   <!-- end last videos - advices -->
+   <!-- start last videos - answering question -->
+   <div class="last_videos">
+   <div class="container">
+      <!-- special heading -->
+      <div class="special_heading">
+         <h1 class="title">
+            آخر الفيديوهات
+         </h1>
+         <div class="description">
+            <hr>
+            <p>
+               آخر فيديوهات الرد على الأسئلة
+            </p>
+            <hr>
+         </div>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (6).jpg" alt="">
+            </div>
+            <p>هل محتاج أتأسس لو هتعلم مجال علوم البيانات ؟</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (7).jpg" alt="">
+            </div>
+            <p>بخصوص مسار التأسيس البرمجي</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/maxresdefault (8).jpg" alt="">
+            </div>
+            <p>أهم النصائح لتحسين أداء موقعك عند إستدعاء المكتبات</p>
+         </a>
+      </div>
+   </div>
+   <!-- end last videos - answering question -->
+   <!-- start last blogs -->
+   <div class="last_blogs">
+   <div class="container">
+      <!-- special heading -->
+      <div class="special_heading">
+         <h1 class="title">
+            آخر المقالات               
+         </h1>
+         <div class="description">
+            <hr>
+            <p>
+               آخر مقالات في جميع الأقسام                  
+            </p>
+            <hr>
+         </div>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/5-strategies.png" alt="">
+            </div>
+            <p>استراتيجيات لتحسين تجربة المستخدم في مواقع التجارة الإلكترونية</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/first-paid-course.jpg" alt="">
+            </div>
+            <p>أول كورس مدفوع مقدم من الأكاديمية</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/website-performance-when-import-libraries.jpg" alt="">
+            </div>
+            <p>نصائح تخص أداء الموقع – عند إستدعاء المكتبات</p>
+         </a>
+      </div>
+   </div>
+   <!-- end last blogs -->
+   <!-- start random blogs -->
+   <div class="random_blogs">
+   <div class="container">
+      <!-- special heading -->
+      <div class="special_heading">
+         <h1 class="title">
+            مقالات عشوائية               
+         </h1>
+         <div class="description">
+            <hr>
+            <p>
+               مقالات عشوائية من جميع الأقسام                  
+            </p>
+            <hr>
+         </div>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/learn-command-line.jpg" alt="">
+            </div>
+            <p>تعلم Command Line مع برنامج Cmder</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/practical-bootstrap.jpg" alt="">
+            </div>
+            <p>عمل ثلاثة تصاميم متجاوبة باطار عمل Bootstrap</p>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="/assets/images/code-preview-share.jpg" alt="">
+            </div>
+            <p>أدوات لمشاركة ال Code على هيئة صورة</p>
+         </a>
+      </div>
+   </div>
+   <!-- end random blogs -->
+   <!-- start last explaination -->
+   <div class="last_explaination">
+      <div class="container">
+         <!-- special heading -->
+         <div class="special_heading">
+            <h1 class="title">
+               آخر الشروحات
+            </h1>
+            <div class="description">
+               <hr>
+               <p>
+                  الشروحات المكتوبة في كل الأقسام
+               </p>
+               <hr>
+            </div>
+         </div>
+         <!-- cards -->
+         <div class="cards">
+            <!-- thin card -->
+            <div class="col">
+               <a href="" class="thin-card">
+                  <span class="technology">Wordpress</span>
+                  <p class="description">شرح دالة esc_url() وكيفية عملها</p>
                </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (4).jpg" alt="">
-                  </div>
-                  <p>بخصوص مسار التأسيس البرمجي</p>
+               <!-- thin card -->
+               <a href="" class="thin-card">
+                  <span class="technology">Wordpress</span>
+                  <p class="description">تعيين الصفحة الرئيسية للموقع كمتجر في WP + WooCommerce</p>
                </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (5).jpg" alt="">
-                  </div>
-                  <p>أهم النصائح لتحسين أداء موقعك عند إستدعاء المكتبات</p>
+               <!-- thin card -->
+               <a href="" class="thin-card">
+                  <span class="technology">Vuejs</span>
+                  <p class="description">طباعة اسم الصفحة الحالية من الموجه</p>
+               </a>
+               <!-- thin card -->
+               <a href="" class="thin-card">
+                  <span class="technology">Vuejs</span>
+                  <p class="description">تمرير المعلمات إلى API بطرق متعددة عند استخدام Axios</p>
+               </a>
+            </div>
+            <div class="col">
+               <!-- thin card -->
+               <a href="" class="thin-card">
+                  <span class="technology">Vuejs</span>
+                  <p class="description">استخدام أيقونات FontAwesome داخل التطبيق</p>
+               </a>
+               <!-- thin card -->
+               <a href="" class="thin-card">
+                  <span class="technology">Javascript</span>
+                  <p class="description">إضافة أصفار في بداية الرقم بناءً على حجمه</p>
+               </a>
+               <!-- thin card -->
+               <a href="" class="thin-card">
+                  <span class="technology">Javascript</span>
+                  <p class="description">إنشاء سلاج (slug) من أي نص</p>
+               </a>
+               <!-- thin card -->
+               <a href="" class="thin-card">
+                  <span class="technology">Programming</span>
+                  <p class="description">تبديل القيم بين المتغيرات في لغات برمجة متعددة</p>
                </a>
             </div>
          </div>
-         <!-- end last videos - advices -->
-         <!-- start last videos - answering question -->
-         <div class="last_videos">
-         <div class="container">
-            <!-- special heading -->
-            <div class="special_heading">
-               <h1 class="title">
-                  آخر الفيديوهات
-               </h1>
-               <div class="description">
-                  <hr>
-                  <p>
-                     آخر فيديوهات الرد على الأسئلة
-                  </p>
-                  <hr>
-               </div>
+      </div>
+   </div>
+   <!-- end last explaination -->
+   <!-- start the new about the academy -->
+   <div class="new_about_the_academy">
+   <div class="container">
+      <!-- special heading -->
+      <div class="special_heading">
+         <h1 class="title">
+            جديد الأكاديمية               
+         </h1>
+         <div class="description">
+            <hr>
+            <p>
+               جميع التحديثات التي يتم عملها
+            </p>
+            <hr>
+         </div>
+      </div>
+      <div class="long-cards">
+         <!-- card -->
+         <a class="card">
+            <p>إضافة قسم كتابات المواقع الإجتماعية</p>
+            <div class="more">
+               <p>إقرأ المزيد</p>
             </div>
-            <!-- cards -->
-            <div class="cards">
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (6).jpg" alt="">
-                  </div>
-                  <p>هل محتاج أتأسس لو هتعلم مجال علوم البيانات ؟</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (7).jpg" alt="">
-                  </div>
-                  <p>بخصوص مسار التأسيس البرمجي</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/maxresdefault (8).jpg" alt="">
-                  </div>
-                  <p>أهم النصائح لتحسين أداء موقعك عند إستدعاء المكتبات</p>
-               </a>
+         </a>
+         <!-- card -->
+         <a class="card">
+            <p>إضافة قسم كتابات المواقع الإجتماعية</p>
+            <div class="more">
+               <p>إقرأ المزيد</p>
+            </div>
+         </a>
+         <!-- card -->
+         <a class="card">
+            <p>إضافة مسار ال WordPress Developer</p>
+            <div class="more">
+               <p>إقرأ المزيد</p>
+            </div>
+         </a>
+         <!-- card -->
+         <a class="card">
+            <p>إضافة صفحة آخر النشاطات في المنصة لمتابعة الجديد</p>
+            <div class="more">
+               <p>إقرأ المزيد</p>
+            </div>
+         </a>
+      </div>
+   </div>
+   <!-- end the new about the academy -->
+   <!-- start question -->
+   <div class="question">
+      <div class="container">
+         <!-- special heading -->
+         <div class="special_heading">
+            <h1 class="title">
+               الأسئلة                  
+            </h1>
+            <div class="description">
+               <hr>
+               <p>
+                  أسئلة منوعة من قسم الأسئلة
+               </p>
+               <hr>
             </div>
          </div>
-         <!-- end last videos - answering question -->
-         <!-- start last blogs -->
-         <div class="last_blogs">
-         <div class="container">
-            <!-- special heading -->
-            <div class="special_heading">
-               <h1 class="title">
-                  آخر المقالات               
-               </h1>
-               <div class="description">
-                  <hr>
-                  <p>
-                     آخر مقالات في جميع الأقسام                  
-                  </p>
-                  <hr>
-               </div>
-            </div>
-            <!-- cards -->
-            <div class="cards">
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/5-strategies.png" alt="">
-                  </div>
-                  <p>استراتيجيات لتحسين تجربة المستخدم في مواقع التجارة الإلكترونية</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/first-paid-course.jpg" alt="">
-                  </div>
-                  <p>أول كورس مدفوع مقدم من الأكاديمية</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/website-performance-when-import-libraries.jpg" alt="">
-                  </div>
-                  <p>نصائح تخص أداء الموقع – عند إستدعاء المكتبات</p>
-               </a>
+         <!-- links -->
+          <div class="links">
+            <a href="#">لماذا لا أكمل تعلم البرمجة؟</a>
+            <a href="#">التعلم من الكتب أم من الدورات المصورة؟</a>
+            <a href="#">هل مهارة حل المشكلات مهمة للـ Front-End Developer؟</a>
+            <a href="#">لماذا تتعدد لغات البرمجة؟</a>
+            <a href="#">ماذا بعد تعلم لغة Python لأستطيع العمل؟</a>
+            <a href="#">متى تستطيع أن تقول أنك Front-End Developer؟</a>
+         </div>
+      </div>
+      </div>
+   <!-- end question -->
+   <!-- start last comment -->
+   <div class="last_comment">
+      <div class="container">
+         <!-- special heading -->
+         <div class="special_heading">
+            <h1 class="title">
+               آخر التعليقات                  
+            </h1>
+            <div class="description">
+               <hr>
+               <p>
+                  أسئلة منوعة من قسم الأسئلة
+               </p>
+               <hr>
             </div>
          </div>
-         <!-- end last blogs -->
-         <!-- start random blogs -->
-         <div class="random_blogs">
-         <div class="container">
-            <!-- special heading -->
-            <div class="special_heading">
-               <h1 class="title">
-                  مقالات عشوائية               
-               </h1>
-               <div class="description">
-                  <hr>
-                  <p>
-                     مقالات عشوائية من جميع الأقسام                  
-                  </p>
-                  <hr>
-               </div>
+      <!-- long card -->
+      <div class="long-cards">
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="assets/images/32a0187364e091495dc00db2e9f3e1a5.jpg" alt="">
             </div>
-            <!-- cards -->
-            <div class="cards">
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/learn-command-line.jpg" alt="">
-                  </div>
-                  <p>تعلم Command Line مع برنامج Cmder</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/practical-bootstrap.jpg" alt="">
-                  </div>
-                  <p>عمل ثلاثة تصاميم متجاوبة باطار عمل Bootstrap</p>
-               </a>
-               <!-- card -->
-               <a href="" class="card">
-                  <div class="image">
-                     <img src="/assets/images/code-preview-share.jpg" alt="">
-                  </div>
-                  <p>أدوات لمشاركة ال Code على هيئة صورة</p>
-               </a>
+            <div class="text">
+               <h5 class="author">الكاتب [<p>Elzero</p>]</h5>
+               <p class="description">مظبوط المفروض يطبع 80 مش 50 عندك حق</p>
+               <p>اقرأ التعليق كاملا</p>
             </div>
-         </div>
-         <!-- end random blogs -->
-         <!-- start last explaination -->
-         <div class="last_explaination">
-            <div class="container">
-               <!-- special heading -->
-               <div class="special_heading">
-                  <h1 class="title">
-                     آخر الشروحات
-                  </h1>
-                  <div class="description">
-                     <hr>
-                     <p>
-                        الشروحات المكتوبة في كل الأقسام
-                     </p>
-                     <hr>
-                  </div>
-               </div>
-               <!-- cards -->
-               <div class="cards">
-                  <!-- thin card -->
-                  <div class="col">
-                     <a href="" class="thin-card">
-                        <span class="technology">Wordpress</span>
-                        <p class="description">شرح دالة esc_url() وكيفية عملها</p>
-                     </a>
-                     <!-- thin card -->
-                     <a href="" class="thin-card">
-                        <span class="technology">Wordpress</span>
-                        <p class="description">تعيين الصفحة الرئيسية للموقع كمتجر في WP + WooCommerce</p>
-                     </a>
-                     <!-- thin card -->
-                     <a href="" class="thin-card">
-                        <span class="technology">Vuejs</span>
-                        <p class="description">طباعة اسم الصفحة الحالية من الموجه</p>
-                     </a>
-                     <!-- thin card -->
-                     <a href="" class="thin-card">
-                        <span class="technology">Vuejs</span>
-                        <p class="description">تمرير المعلمات إلى API بطرق متعددة عند استخدام Axios</p>
-                     </a>
-                  </div>
-                  <div class="col">
-                     <!-- thin card -->
-                     <a href="" class="thin-card">
-                        <span class="technology">Vuejs</span>
-                        <p class="description">استخدام أيقونات FontAwesome داخل التطبيق</p>
-                     </a>
-                     <!-- thin card -->
-                     <a href="" class="thin-card">
-                        <span class="technology">Javascript</span>
-                        <p class="description">إضافة أصفار في بداية الرقم بناءً على حجمه</p>
-                     </a>
-                     <!-- thin card -->
-                     <a href="" class="thin-card">
-                        <span class="technology">Javascript</span>
-                        <p class="description">إنشاء سلاج (slug) من أي نص</p>
-                     </a>
-                     <!-- thin card -->
-                     <a href="" class="thin-card">
-                        <span class="technology">Programming</span>
-                        <p class="description">تبديل القيم بين المتغيرات في لغات برمجة متعددة</p>
-                     </a>
-                  </div>
-               </div>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="assets/images/f53b3bb48474eb438b77f03bdaf98b05.png" alt="">
             </div>
-         </div>
-         <!-- end last explaination -->
-         <!-- start the new about the academy -->
-         <div class="new_about_the_academy">
-         <div class="container">
-            <!-- special heading -->
-            <div class="special_heading">
-               <h1 class="title">
-                  جديد الأكاديمية               
-               </h1>
-               <div class="description">
-                  <hr>
-                  <p>
-                     جميع التحديثات التي يتم عملها
-                  </p>
-                  <hr>
-               </div>
+            <div class="text">
+               <h5 class="author">الكاتب [<p>fahad</p>]</h5>
+               <p class="description">مظبوط المفروض يطبع 80 مش 50 عندك حق</p>
+               <p>اقرأ التعليق كاملا</p>
             </div>
-            <div class="long-cards">
-               <!-- card -->
-               <a class="card">
-                  <p>إضافة قسم كتابات المواقع الإجتماعية</p>
-                  <div class="more">
-                     <p>إقرأ المزيد</p>
-                  </div>
-               </a>
-               <!-- card -->
-               <a class="card">
-                  <p>إضافة قسم كتابات المواقع الإجتماعية</p>
-                  <div class="more">
-                     <p>إقرأ المزيد</p>
-                  </div>
-               </a>
-               <!-- card -->
-               <a class="card">
-                  <p>إضافة مسار ال WordPress Developer</p>
-                  <div class="more">
-                     <p>إقرأ المزيد</p>
-                  </div>
-               </a>
-               <!-- card -->
-               <a class="card">
-                  <p>إضافة صفحة آخر النشاطات في المنصة لمتابعة الجديد</p>
-                  <div class="more">
-                     <p>إقرأ المزيد</p>
-                  </div>
-               </a>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="assets/images/f53b3bb48474eb438b77f03bdaf98b05.png" alt="">
             </div>
-         </div>
-         <!-- end the new about the academy -->
-         <!-- start question -->
-         <div class="question">
-            <div class="container">
-               <!-- special heading -->
-               <div class="special_heading">
-                  <h1 class="title">
-                     الأسئلة                  
-                  </h1>
-                  <div class="description">
-                     <hr>
-                     <p>
-                        أسئلة منوعة من قسم الأسئلة
-                     </p>
-                     <hr>
-                  </div>
-               </div>
-               <!-- links -->
-                <div class="links">
-                  <a href="#">لماذا لا أكمل تعلم البرمجة؟</a>
-                  <a href="#">التعلم من الكتب أم من الدورات المصورة؟</a>
-                  <a href="#">هل مهارة حل المشكلات مهمة للـ Front-End Developer؟</a>
-                  <a href="#">لماذا تتعدد لغات البرمجة؟</a>
-                  <a href="#">ماذا بعد تعلم لغة Python لأستطيع العمل؟</a>
-                  <a href="#">متى تستطيع أن تقول أنك Front-End Developer؟</a>
-               </div>
+            <div class="text">
+               <h5 class="author">الكاتب [<p>Makeen</p>]</h5>
+               <p class="description">مظبوط المفروض يطبع 80 مش 50 عندك حق</p>
+               <p>اقرأ التعليق كاملا</p>
             </div>
-         <!-- end question -->
-         <!-- start last comment -->
-         <div class="last_comment">
-            <div class="container">
-               <!-- special heading -->
-               <div class="special_heading">
-                  <h1 class="title">
-                     آخر التعليقات                  
-                  </h1>
-                  <div class="description">
-                     <hr>
-                     <p>
-                        أسئلة منوعة من قسم الأسئلة
-                     </p>
-                     <hr>
-                  </div>
-               </div>
-
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="assets/images/32a0187364e091495dc00db2e9f3e1a5.jpg" alt="">
             </div>
-         <!-- end last comment -->
-         <!-- start footer -->
-         <!-- end footer -->
-         <script src="assets/script/script.js"></script>
-      </body>
-   </html>
+            <div class="text">
+               <h5 class="author">الكاتب [<p>Nasser</p>]</h5>
+               <p class="description">مظبوط المفروض يطبع 80 مش 50 عندك حق</p>
+               <p>اقرأ التعليق كاملا</p>
+            </div>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="assets/images/32a0187364e091495dc00db2e9f3e1a5.jpg" alt="">
+            </div>
+            <div class="text">
+               <h5 class="author">الكاتب [<p>qad7901</p>]</h5>
+               <p class="description">مظبوط المفروض يطبع 80 مش 50 عندك حق</p>
+               <p>اقرأ التعليق كاملا</p>
+            </div>
+         </a>
+         <!-- card -->
+         <a href="" class="card">
+            <div class="image">
+               <img src="assets/images/f53b3bb48474eb438b77f03bdaf98b05.png" alt="">
+            </div>
+            <div class="text">
+               <h5 class="author">الكاتب [<p>saqer</p>]</h5>
+               <p class="description">مظبوط المفروض يطبع 80 مش 50 عندك حق</p>
+               <p>اقرأ التعليق كاملا</p>
+            </div>
+         </a>
+      </div>
+      </div>
+</main>
+   <!-- end last comment -->
+   <!-- start footer -->
+    <footer>
+   <div class="footer">
+      <div class="container">
+      <div class="made">
+         <p>Made With Love By Osama Elzero © 2024</p>
+      </div>
+      <div class="social-media-links">
+      <a href="https://elzero.org/contact/">Contact</a>
+      <a href="https://codepen.io/OsamaElzero/">Codepen</a>
+      <a href="https://x.com/Osama_Elzero">X</a>
+      <a href="https://github.com/ElzeroWebSchool">Github</a>
+      <a href="https://www.facebook.com/OsElzero">Facebook</a>
+      <a href="https://www.youtube.com/@ElzeroWebSchool">Youtube</a>
+   </div>
+</div>
+</div>
+       </footer>
+      <!-- end footer -->
+      <script src="assets/script/script.js"></script>
+   </body>
+</html>
