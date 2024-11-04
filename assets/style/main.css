@@ -544,7 +544,7 @@ header {
 .question .container .links a {
   color: #333;
   width: fit-content;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   transition: 0.3s ease-in;
 }
@@ -615,5 +615,9 @@ header {
 .footer .container .social-media-links a {
   text-decoration: none;
   color: #ddd;
+  font-weight: 600;
   margin-left: 10px;
+}
+.footer .container .social-media-links a:hover {
+  text-decoration: underline;
 }
