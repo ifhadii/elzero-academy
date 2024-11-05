@@ -4,13 +4,11 @@ This project is a clone of the **Elzero Academy** website, aimed at recreating i
 
 ![Homepage Screenshot](assets/DescriptionImages/repo-cover.png)
 
----
 
 ## About the Project
 
 The Elzero website clone is built to match the look and feel of [Elzero](https://elzero.org/)—a popular platform for web development tutorials, coding resources, and courses. The site has been recreated to better understand HTML, CSS, and JavaScript principles and improve website-building skills.
 
----
 
 ## Features
 
@@ -20,7 +18,6 @@ The Elzero website clone is built to match the look and feel of [Elzero](https:/
 - **Modular Structure**: Organized code with reusable components.
 - **SEO Friendly**: Basic SEO optimizations for improved search visibility.
 
----
 
 ## Technologies Used
 
@@ -30,7 +27,6 @@ The Elzero website clone is built to match the look and feel of [Elzero](https:/
 - **Font Awesome** (for icons)
 - **Google Fonts** (for typography)
 
----
 
 ## Installation
 
