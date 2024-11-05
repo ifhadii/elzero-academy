@@ -2,6 +2,8 @@
 
 This project is a clone of the **Elzero Academy** website, aimed at recreating its design and functionality as closely as possible. It serves as a personal project for practicing front-end development skills and replicating real-world website structures.
 
+![Homepage Screenshot](assets/DescriptionImages/repo-cover.png)
+
 ---
 
 ## 📄 About the Project
